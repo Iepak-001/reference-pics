@@ -35,6 +35,17 @@ We will have to use the IS NULL and IS NOT NULL operators instead.
 
     To display the products outside the range of the previous example, use NOT BETWEEN:
 
+### ALIASES
+
+- Note: Single or double quotation marks are required if the alias name contains spaces:
+
+### JOIN STATEMENTS
+
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+![](./images/sql_joins.png)
+
+
 ### Update Table
 
 UPDATE Customers  
