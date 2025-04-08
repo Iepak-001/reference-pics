@@ -25,6 +25,16 @@ It is not possible to test for NULL values with comparison operators, such as =,
 
 We will have to use the IS NULL and IS NOT NULL operators instead.
 
+- The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
+
+SELECT * FROM Products  
+WHERE ProductName BETWEEN   'Carnarvon Tigers' AND    'Mozzarella di Giovanni'  
+ORDER BY ProductName;  
+
+- NOT BETWEEN Example
+
+    To display the products outside the range of the previous example, use NOT BETWEEN:
+
 ### Update Table
 
 UPDATE Customers
