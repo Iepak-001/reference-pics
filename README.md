@@ -27,9 +27,9 @@ We will have to use the IS NULL and IS NOT NULL operators instead.
 
 - The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
 
-SELECT * FROM Products  
-WHERE ProductName BETWEEN   'Carnarvon Tigers' AND    'Mozzarella di Giovanni'  
-ORDER BY ProductName;  
+    SELECT * FROM Products  
+    WHERE ProductName BETWEEN   'Carnarvon Tigers' AND    'Mozzarella di Giovanni'  
+    ORDER BY ProductName;  
 
 - NOT BETWEEN Example
 
@@ -37,16 +37,19 @@ ORDER BY ProductName;
 
 ### Update Table
 
-UPDATE Customers
-SET ContactName = 'Alfred Schmidt', City = 'Frankfurt'
-WHERE CustomerID = 1;
+UPDATE Customers  
+SET ContactName = 'Alfred Schmidt', City = 'Frankfurt'  
+WHERE CustomerID = 1;  
 
 ![](./images/sql_commands.png)
 ![](./images/sql_fiels_types.png)
 ![](./images/sql_insert.png)
 ![](./images/sql_limit.png)
 ![](./images/sql_nestedOrdering.png)
+
 ![](./images/sql_where.png)
+
+
 ![](./images/sql_wildcards.png)
 
 - The IN operator allows you to specify multiple values in a WHERE clause.
