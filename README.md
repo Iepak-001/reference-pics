@@ -1,4 +1,6 @@
-# reference-pics
+# Reference_pics
+
+### This repo contains pics for quick revison and references to the previous studied resources for **QUICK VISUALISATION**
 
 # HTML/CSS
 
