@@ -38,3 +38,9 @@ WHERE CustomerID = 1;
 ![](./images/sql_nestedOrdering.png)
 ![](./images/sql_where.png)
 ![](./images/sql_wildcards.png)
+
+- The IN operator allows you to specify multiple values in a WHERE clause.
+
+    The IN operator is a shorthand for multiple OR conditions.
+
+![](./images/sql_in.png)
