@@ -131,6 +131,8 @@ WHERE CustomerID = 1;
 
 - Handles Negative weights
 
+    - *** If No Negative Wt Present *** Then apply Dijkstra on each node
+
 - Detect Negative Cycles
 
 - TC: O(V³) where V=No of vertices(Nodes)
