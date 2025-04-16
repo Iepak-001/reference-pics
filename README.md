@@ -136,3 +136,9 @@ WHERE CustomerID = 1;
 - Detect Negative Cycles
 
 - TC: O(V³) where V=No of vertices(Nodes)
+
+- Algorithm
+
+![](./images/graph_floyd_Idea.png)
+
+ ![](./images/graph_floyd.png)
