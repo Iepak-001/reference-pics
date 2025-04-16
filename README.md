@@ -84,6 +84,24 @@ WHERE CustomerID = 1;
 
 - TC: O(V + E log V) with min-heap
 
+### Approaches
+
+#### Naive
+
+![](./images//graph_dij_basic.png)
+
+#### Use Queue
+
+![](./images/graph_dij_queue.png)
+
+#### Use PQ
+
+![](./images/graph_dij_pq.png)
+
+#### Using SET
+
+![](./images/graph_dij_set.png)
+
 ## Bellman Ford
 
 - Improvement from Dijkstra to handle *Negative Weights*
