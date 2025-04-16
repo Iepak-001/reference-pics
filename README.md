@@ -113,7 +113,7 @@ WHERE CustomerID = 1;
 - Algorithm
 
     - Let n = no of nodes
-    
+
     - Saare edges pr (n-1) times distance check kro
 
     - To detect negative cycle
@@ -121,6 +121,8 @@ WHERE CustomerID = 1;
         - saare Edges pr one time more dist check kro
 
         - If any distance gets updated => Negative cycle present
+
+ ![](./images/graph_bellman.png)
 
 
 ## Floyd-Warshall
