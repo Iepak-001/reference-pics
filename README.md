@@ -73,3 +73,31 @@ WHERE CustomerID = 1;
     The IN operator is a shorthand for multiple OR conditions.
 
 ![](./images/sql_in.png)
+
+# GRAPHS
+
+## Dijkstra's Algo
+
+- Finds shortest distance from source to all other nodes
+
+- Doesn't work with **Negative Weights** 
+
+- TC: O(V + E log V) with min-heap
+
+## Bellman Ford
+
+- Improvement from Dijkstra to handle *Negative Weights*
+
+- Can also detect *Negative Cycles*
+
+- TC: O(V × E)
+
+## Floyd-Warshall
+
+- All pair Shortest-Path
+
+- Handles Negative weights
+
+- Detect Negative Cycles
+
+- TC: O(V³) where V=No of vertices(Nodes)
