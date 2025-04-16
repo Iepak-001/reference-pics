@@ -110,6 +110,19 @@ WHERE CustomerID = 1;
 
 - TC: O(V × E)
 
+- Algorithm
+
+    - Let n = no of nodes
+    
+    - Saare edges pr (n-1) times distance check kro
+
+    - To detect negative cycle
+
+        - saare Edges pr one time more dist check kro
+
+        - If any distance gets updated => Negative cycle present
+
+
 ## Floyd-Warshall
 
 - All pair Shortest-Path
