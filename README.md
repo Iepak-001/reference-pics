@@ -90,7 +90,7 @@ WHERE CustomerID = 1;
 
 ![](./images//graph_dij_basic.png)
 
-#### Use Queue
+#### Use Queue with in_queue Marking
 
 ![](./images/graph_dij_queue.png)
 
