@@ -2,6 +2,10 @@
 
 ### This repo contains pics for quick revison and references to the previous studied resources for **QUICK VISUALISATION**
 
+- [HTML/CSS](#htmlcss)
+- [Sql](#sql)
+- [Graphs](#graphs)
+
 # HTML/CSS
 
 
